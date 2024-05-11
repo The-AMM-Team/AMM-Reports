@@ -2,6 +2,7 @@ name: Bug Report
 description: File an bug.
 title: "[BUG] <title>"
 labels: ["bug"]
+projects: ["The-AMM-Team/AMM"]
 body:
   - type: input
     id: User
