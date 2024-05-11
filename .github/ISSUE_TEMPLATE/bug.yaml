@@ -1,14 +1,14 @@
-name: "BUG"
-description: "File a bug report"
-title: "[Bug] <title>"
-labels: [Bug]
+name: Bug Report
+description: File an bug.
+title: "[BUG] <title>"
+labels: ["bug"]
 body:
   - type: input
     id: User
     attributes:
       label: Roblox User
       description: Please provide your Roblox username.
-      placeholder: ex. roblox
+      placeholder: ex. RobloxCoolBoy
     validations:
       required: true
   - type: textarea
