@@ -1,0 +1,37 @@
+name: Improvement
+description: File an Improvement.
+title: "[Improvement] <title>"
+labels: ["feature"]
+projects: ["The-AMM-Team/AMM"]
+body:
+  - type: input
+    id: User
+    attributes:
+      label: Roblox User
+      description: Please provide your Roblox username.
+      placeholder: ex. RobloxCoolBoy
+    validations:
+      required: true
+  - type: textarea
+    id: Details
+    attributes:
+      label: Describe the improvement you want.
+      description: Please describe the improvement in detail and how it would benefit the project.
+    validations:
+      required: true
+  - type: textarea
+    id: Media
+    attributes:
+      label: Attach images or videos related to the improvement.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before Submitting
+      description: Please check the boxes below before submitting.
+      options:
+        - label: I have provided all necessary details for this improvement.
+          required: true
+        - label: I believe this improvement will positively impact the project.
+          required: true
